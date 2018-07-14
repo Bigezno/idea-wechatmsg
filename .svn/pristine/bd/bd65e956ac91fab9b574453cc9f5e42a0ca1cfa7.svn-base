@@ -1,0 +1,44 @@
+##################-------------   server  ----------------##################\
+#jdbc.master=masterTest3306,masterTest3307
+#masterTest3306.key=1plus2mo3mey%.110ww+-520++==.?stu33
+#masterTest3306.driver=com.mysql.jdbc.Driver
+#masterTest3306.url=E745D5A206EE6FC83B0C55AD64661AE144C842F5DA61961D3A132E68473A4D2641DF0BA5188272B9BFC37E60267BAFD8
+#masterTest3306.username=24E4A96E2BB058C3AA76C8AD11890E96
+#masterTest3306.password=687568E75303B8B5B71C2D21721EA110
+##################-------------   server  ----------------##################
+
+
+
+##################-------------   local  ----------------##################
+
+
+masterTest3306.key=1plus2mo3mey%.110ww+-520++==.?stu33
+masterTest3306.driverClass=com.mysql.jdbc.Driver
+#jdbc:mysql://localhost:3306/test
+masterTest3306.jdbcUrl=F05817594AFC6C4072F6AD3B6A87F5366F9151F0E75F498F4F854B899C34B0B404439D713FEFBEC0C1FF2F5328BB862B
+#root
+masterTest3306.user=AED6EA684C7531B306F8A9104176DB6A
+#root
+masterTest3306.password=AED6EA684C7531B306F8A9104176DB6A
+masterTest3306.initialPoolSize=5
+masterTest3306.minPoolSize=6
+masterTest3306.maxPoolSize=10
+masterTest3306.maxIdleTime=3
+
+masterTest3307.key=1plus2mo3mey%.110ww+-520++==.?stu33
+masterTest3307.driverClass=com.mysql.jdbc.Driver
+#jdbc:mysql://localhost:3307/test
+masterTest3307.jdbcUrl=F05817594AFC6C4072F6AD3B6A87F53646B66E1054CCE963DD111462A8A252BC04439D713FEFBEC0C1FF2F5328BB862B
+#root
+masterTest3307.user=AED6EA684C7531B306F8A9104176DB6A
+#root
+masterTest3307.password=AED6EA684C7531B306F8A9104176DB6A
+masterTest3307.initialPoolSize=5
+masterTest3307.minPoolSize=6
+masterTest3307.maxPoolSize=10
+masterTest3307.maxIdleTime=3
+
+##################-------------   local  ----------------##################
+
+
+

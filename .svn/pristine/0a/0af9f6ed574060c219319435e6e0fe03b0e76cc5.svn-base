@@ -1,0 +1,5 @@
+com.plusmoney.wechat.service.PmcMallService=com.plusmoney.wechat.service.impl.PmcMallServiceImpl
+com.plusmoney.wechat.service.WechatAtManager=com.plusmoney.wechat.service.impl.WechatAtServiceImpl
+com.plusmoney.wechat.service.WechatQrService=com.plusmoney.wechat.service.impl.WechatQrServiceImpl
+com.plusmoney.wechat.service.WechatRegService=com.plusmoney.wechat.service.impl.WechatRegServiceImpl
+com.plusmoney.wechat.service.WechatTicketHelper=com.plusmoney.wechat.service.impl.WechatTicketServiceImpl

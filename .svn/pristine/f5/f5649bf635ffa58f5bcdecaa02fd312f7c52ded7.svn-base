@@ -1,0 +1,3 @@
+com.plusmoney.wechat.service.SendNotificationMsg=com.plusmoney.wechat.service.impl.SendNotificationMsgImpl
+com.plusmoney.wechat.service.WechatAtManager=com.plusmoney.wechat.service.impl.WechatAtServiceImpl
+com.plusmoney.wechat.service.GetAppPersonalMsg=com.plusmoney.wechat.service.impl.GetAppPersonalMsgImpl

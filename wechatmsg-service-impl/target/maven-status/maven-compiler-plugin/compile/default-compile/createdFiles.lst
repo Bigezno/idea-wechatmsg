@@ -1,0 +1,16 @@
+com\plusmoney\wechat\util\Release.class
+com\plusmoney\wechat\util\HttpUtils.class
+com\plusmoney\wechat\dao\WechatAtDao.class
+com\plusmoney\wechat\init\Log4jInit.class
+com\plusmoney\wechat\util\SqlLogger.class
+com\plusmoney\wechat\service\impl\GetAppPersonalMsgImpl.class
+com\plusmoney\wechat\util\PlusLogger.class
+com\plusmoney\wechat\init\RpcServerInit.class
+com\plusmoney\wechat\util\Formatter.class
+com\plusmoney\wechat\util\WechatAccountHelper.class
+com\plusmoney\wechat\dao\impl\WechatAtDaoImpl.class
+com\plusmoney\wechat\service\impl\Sender.class
+com\plusmoney\wechat\service\impl\SendNotificationMsgImpl.class
+com\plusmoney\wechat\util\MethodConstructor.class
+com\plusmoney\wechat\dao\impl\GetAppPersonalMsgDaoImpl.class
+com\plusmoney\wechat\dao\GetAppPersonalMsgDao.class

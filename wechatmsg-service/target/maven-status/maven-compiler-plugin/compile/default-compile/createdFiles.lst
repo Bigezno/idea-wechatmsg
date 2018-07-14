@@ -1,0 +1,8 @@
+com\plusmoney\wechat\service\GetAppPersonalMsg.class
+com\plusmoney\wechat\entity\MsgTemplateId.class
+com\plusmoney\wechat\service\SendNotificationMsg.class
+com\plusmoney\wechat\service\WechatAtManager.class
+com\plusmoney\wechat\entity\MsgBody.class
+com\plusmoney\wechat\entity\AppPersonalMsgBody.class
+com\plusmoney\wechat\entity\AccessToken.class
+com\plusmoney\wechat\entity\SendMethod.class

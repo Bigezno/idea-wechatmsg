@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.plusmoney</groupId>
+  <artifactId>wecahtmsg-service-impl</artifactId>
+  <version>1.1.0</version>
+  <packaging>war</packaging>
+
+  <name>wecahtmsg-service-impl</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!--<target.path>${targetDir}</target.path>-->
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>fastjson</artifactId>
+		<version>1.2.6</version>
+	</dependency>
+	<dependency>
+		<groupId>com.plusmoney</groupId>
+		<artifactId>common-jdbc</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+	<!--subbegin -->
+
+		<!--GENERALUTILSbegin -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.2</version>
+		</dependency>
+
+	    <dependency>
+			<groupId>com.plusmoney</groupId>
+			<artifactId>common-mp-cmf-rpc</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.plusmoney</groupId>
+			<artifactId>wecahtmsg-service</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+  </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Team Nexus Repository</name>
+            <url>http://112.74.12.187:8081/nexus/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
+
+
+    <build>
+		<finalName>wecahtmsg-service-impl</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<excludes>
+					<exclude>*.*</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+			</testResource>
+		</testResources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<archiveClasses>true</archiveClasses>
+					<webResources>
+						<resource>
+							<directory>src/main/resources</directory>
+							<targetPath>WEB-INF/classes</targetPath>
+							<filtering>true</filtering>
+						</resource>
+					</webResources>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
